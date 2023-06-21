@@ -1,0 +1,8 @@
+.ReportesAdopta-container {
+    background-image: url(/src/images/proximamente.jpg);
+      background-size: cover;
+      background-position: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }

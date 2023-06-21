@@ -1,0 +1,43 @@
+/* Reporte.css */
+.ReportesPets-container {
+  background-image: url(/src/images/imagenceleste.jpg);
+    background-size: cover;
+    background-position: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    border: none;
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  

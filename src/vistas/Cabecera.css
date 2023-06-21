@@ -1,0 +1,94 @@
+/* Cabecera.css */
+
+.Cabecera {
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(252, 251, 251);
+  }
+  
+  .Cabecera-h1 {
+    /* Estilos para el elemento h1 */
+  }
+  
+  .Cabecera-a {
+    /* Estilos para los enlaces dentro de la Cabecera */
+  }
+  
+  .Cabecera-button {
+    display: none;
+    cursor: pointer;
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+  }
+  
+  .Cabecera-svg {
+    width: 2em;
+    height: 2em;
+    fill: white; /* Color de relleno del icono */
+  }
+  
+  .Cabecera-nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+  
+  .Cabecera-nav.isActive {
+    height: 50vh;
+    opacity: 1;
+  }
+  
+  .Cabecera-ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .Cabecera-li {
+    margin: 0 0.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .Cabecera-button {
+      display: flex;
+    }
+  
+    .Cabecera-nav.isActive {
+      height: 100vh;
+    }
+  
+    .Cabecera-ul {
+      flex-direction: column;
+    }
+  
+    .Cabecera-li {
+      margin: 0.5em 0;
+    }
+  
+    .Cabecera-ul li a {
+      color: rgb(250, 243, 243);
+      transition: color 0.3s ease;
+      text-decoration: none;
+      font-size: 25px;
+    }
+  
+    .Cabecera-ul li a:hover {
+      color: red;
+    }
+  }
+  

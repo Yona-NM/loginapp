@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0c84e4;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+  }
+  
+  .logout-button:hover {
+    background-color: #e53935;
+  }
+  
+  

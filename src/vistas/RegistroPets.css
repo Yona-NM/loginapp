@@ -1,0 +1,84 @@
+.RegistroPets-container {
+    background-image: url(/src/images/imagenceleste.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .RegistroPets-container .Titulo1 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .icon-registromascota{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  
+  
+  .RegistroPets-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .RegistroPets-container label {
+    margin-bottom: 0.5em;
+  }
+  
+  .RegistroPets-container input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  .RegistroPets-container button {
+    padding: 0.5em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .RegistroPets-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .RegistroPets-container .error-message {
+    text-align: center;
+    margin-top: 1em;
+    color: red;
+  }
+  
+  .RegistroPets-container p {
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  .RegistroPets-container p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .RegistroPets-container p a:hover {
+    text-decoration: underline;
+  }
+  
+  .RegistroPets-container .mis-mascotas-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffae00;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .RegistroPets-container .mis-mascotas-button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+  }
